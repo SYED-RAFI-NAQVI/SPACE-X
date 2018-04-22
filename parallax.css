@@ -1,0 +1,103 @@
+body, html{
+  height:100%;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Lato",sans-serif;
+  font-weight: 500;
+  line-height: 1.8em;
+  color:#999;
+}
+
+.img1{
+  background-image:url("image1.jpg");
+  min-height: 100%;
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.img2{
+  background-image:url("image2.jpeg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.70;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.img3{
+  background-image:url("image3.jpeg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+.img4{
+  background-image:url("image4.jpg");
+  min-height: 400px;
+  position: relative;
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+}
+
+
+section{
+  text-align: center;
+  padding: 50px 50px;
+}
+
+.light{
+  background-color: #f6f6f6;
+  color: #666;
+}
+
+.dark{
+  background-color: #282e34;
+  color: #ddd;
+}
+
+.text1{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 7px;
+  text-transform: uppercase;
+}
+
+.head1{
+  background-color: #111;
+  color: #fff;
+  padding: 20px;
+}
+
+#end{
+  font-size: 22px;
+  color:  #ff80b3;
+}
+
+#musk{
+  color: grey;
+}
+
+
+@media(max-width:568px){
+  .img1,.img2,.img3,.img4{
+    background-attachment:scroll;
+  }
+}
